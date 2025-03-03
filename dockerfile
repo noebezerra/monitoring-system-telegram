@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-WORKDIR /usr/app
+WORKDIR /home/node
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
